@@ -1,16 +1,41 @@
-<!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expression Evaluator</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        #inputField {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            font-size: 16px;
+        }
+        #evaluateButton {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        #result {
+            margin-top: 20px;
+            font-size: 18px;
+        }
+        .error {
+            color: red;
+        }
+    </style>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
+    <h1>Expression Evaluator</h1>
+    <input type="text" id="inputField" placeholder="Enter your expression here">
+    <button id="evaluateButton">Evaluate</button>
+    <div id="result"></div>
+
     <script type="text/javascript" src="./script.js">
 </script>
 
 </body>
-
 </html>
